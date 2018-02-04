@@ -5,6 +5,10 @@
   color: #272727;
 }
 
+input {
+  font-size: 24px;
+}
+
 .header__title {
   color: rgba(46, 204, 113, 1.0);
   text-align: center;
@@ -47,6 +51,10 @@ button:active {
 
 .output {
   flex: 1;
+  margin-top: calc(100px / 6);
+}
+
+.operations > button {
   margin-top: calc(100px / 6);
 }
 
